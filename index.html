@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://www.rightlobemath.com/digitalabacus/abacus_rebuild.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="keywords" content="soroban, abacus, ábaco, math">
+		<meta name="description" content="An online soroban abacus designed to play online and illustrate the use of this ancient oriental calculator">
+		<link rel="stylesheet" type="text/css" href="assets/abacus.css">
+		<title>Play Online with Soroban Abacus</title>
+	</head>
+	<body>
+			
+			<div id="canvasdiv">
+			<canvas id="canvas" width="740" height="320">
+				Sorry, this application needs HTML5 canvas support, please upgrade you browser. Thanks
+				Lo siento, esta aplicación necesita soporte para HTML5, por favor actualice su navegador. Gracias
+			</canvas>
+			</div>
+			<fieldset>
+				<legend>Settings</legend>
+			จำนวนหลัก:
+			<select id="numberOfRods">
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11" selected>11</option>
+				<option value="13">13</option>
+				<option value="15">15</option>
+				<option value="17">17</option>
+				<option value="19">19</option>
+				<option value="21">21</option>
+			</select>
+			<input class="button" id="reset" type="button" value="Reset Abacus"> 
+			
+			<input class='button' id='show' type='button' value='Set number' />
+			<input id="set_number" type="number" min="1" max="1000" size="6" value="17">
+			</fieldset>
+		<br>
+		<audio id="beadSound" src="assets/clac.wav" style="display: none;"></audio>
+<br><br>	
+		
+		<script src="assets/abacus.js"></script>
+		
+	
+</body></html>
